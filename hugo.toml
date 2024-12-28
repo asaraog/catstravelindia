@@ -1,0 +1,89 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Cats Travel India"
+theme = "agnes-hugo-theme"
+
+[params]
+	dateFormat = "Dec 27, 2024" 
+	authorName = "Apoorv Saraogee"
+	google_analytics_id = "G-HC3KQNEHLJ"
+	
+[menu]
+	[[menu.main]]
+		Name = "Contact"
+		URL = "#"
+		weight = 1
+		
+[params.social]
+		
+[params.content]
+	LeadTitle = "Cats Travel India"
+	LeadDescription = "Get advice on traveling to/from India with your cat. Help with import/export procedures with AQCS and DGFT."
+	ButtonCaption = "Email us"
+	ButtonURL = "mailto:apoorv@outlook.com"
+
+################### Feature Columns (do not exceed 4) ####################
+
+[[params.feature]]
+	FeatureTitle = "DGFT Approval"
+	FeatureDescription = "Walkthrough process on applying for temporary import of cats."
+	FeatureImage = "images/feature-1.png"
+	
+[[params.feature]]
+	FeatureTitle = "AQCS NOC Import"
+	FeatureDescription = "Walkthrough process on obtaining a No Objection Certificate (NOC) from your port of landing."
+	FeatureImage = "images/feature-2.png"
+
+[[params.feature]]
+	FeatureTitle = "AQCS Health Certificate Export"
+	FeatureDescription = "Walkthrough process on obtaining an export health certificate from your closest AQCS."
+	FeatureImage = "images/feature-3.png"
+	
+[[params.feature]]
+	FeatureTitle = "Domestic travel in India"
+	FeatureDescription = "Walkthrough process on obtaining neccessary documents for cats on Akasa Air and Air India."
+	FeatureImage = "images/feature-4.png"
+	
+################### Pricing Columns (do not exceed 3) ####################
+
+[[params.pricing]]
+	PricingTitle = "Within India"
+	PricingRate = "49"	
+	ButtonCaption = "Domestic"
+ 	ButtonURL = "mailto:apoorv@outlook.com"
+	[[params.pricing.Features]]
+		Description = "Document Support"
+	[[params.pricing.Features]]
+		Description = "Walkthrough"
+	[[params.pricing.Features]]
+		Description = "Travel Support"
+	[[params.pricing.Features]]
+		Description = "Experienced Advice"	
+
+[[params.pricing]]
+	PricingTitle = "Import/Export without DGFT"
+	PricingRate = "199"
+	ButtonCaption = "International"
+ 	ButtonURL = "mailto:apoorv@outlook.com"
+	[[params.pricing.Features]]
+		Description = "Document Support"
+	[[params.pricing.Features]]
+		Description = "Walkthrough"
+	[[params.pricing.Features]]
+		Description = "Travel Support"
+	[[params.pricing.Features]]
+		Description = "Experienced Advice"
+
+[[params.pricing]]
+	PricingTitle = "Import/Export with DGFT"
+	PricingRate = "299"
+	ButtonCaption = "International"
+ 	ButtonURL = "mailto:apoorv@outlook.com"
+	[[params.pricing.Features]]
+		Description = "Document Support"
+	[[params.pricing.Features]]
+		Description = "Walkthrough"
+	[[params.pricing.Features]]
+		Description = "Travel Support"
+	[[params.pricing.Features]]
+		Description = "Experienced Advice"	
